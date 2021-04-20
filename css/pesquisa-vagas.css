@@ -91,7 +91,7 @@ flex-direction: column; */
 
 }
 
-.field1 select, .field2, .field3, .field4 {
+.field1 select, .field2 select, .field3 select, .field4 select {
 
 align-items: center;
 width: 18vw;;
