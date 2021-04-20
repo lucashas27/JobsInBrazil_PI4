@@ -26,6 +26,51 @@ top: 35px;
 
 color: #FFFFFF;
 }
+.barra-pesquisa input {
+position: absolute;
+width: 396px;
+height: 30px;
+left: 457px;
+top: 51px;
+background: #FFFFFF;
+border-radius: 6px;
+}
+.lupa img {
+position: absolute;
+width: 15px;
+height: 15px;
+left: 821px;
+top: 61px;
+}
+.home {
+position: absolute;
+width: 25px;
+height: 22.29px;
+left: 986px;
+top: 55px;
+}
+.perfil {
+position: absolute;
+left: 1104px;
+top: 53px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.perfil span {
+position: relative;
+margin-top: 1.2vh;
+margin-left: 1vh;
+}
+.barra-pesquisa input {
+position: absolute;
+width: 396px;
+height: 30px;
+left: 457px;
+top: 51px;
+background: #FFFFFF;
+border-radius: 6px;
+}
 .botao button{
 display: flex;
 position: absolute;
