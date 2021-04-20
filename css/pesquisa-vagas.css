@@ -96,10 +96,33 @@ flex-direction: column; */
 align-items: center;
 width: 18vw;;
 height: 37px;
-margin: 3.2vh;
+margin: 3vh;
+margin-left: 3.6vh;
 background: #F2F2F2;
 mix-blend-mode: normal;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 7px;
+font-family: Average Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+color: #000000;
+text-align: center;
 }
 
+.submit-card input {
+width: 18vw;
+height: 5vh;
+left: 12.8vw;
+top: 76vh;;
+background: #27AE60;
+mix-blend-mode: normal;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 7px;
+color: white;
+margin-left: 3.5vh;
+margin-top: 2vh;
+cursor: pointer;
+
+}
