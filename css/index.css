@@ -1,0 +1,92 @@
+* {
+   justify-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 1.24;
+}
+
+.header_container {
+position: relative;
+width: 1366px;
+height: 150px;
+left: 0px;
+top: 0px;
+background: #0D4253;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header_container .header {
+  position: absolute;
+width: 290px;
+height: 35px;
+left: 98px;
+top: 35px;
+
+color: #FFFFFF;
+}
+.botao button{
+display: flex;
+position: absolute;
+border: 0;
+width: 683px;
+height: 41px;
+left: 0px;
+top: 150px;
+background: #2F80ED;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.text_botao{
+  /* Candidatos */
+position: absolute;
+width: 20px;
+height: 26px;
+left: 295px;
+top:5px;
+
+text-align: center;
+justify-items: center;
+margin-right: 341px;
+font-family: Average Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #F2F2F2;
+}
+.botao2 button{
+/* Rectangle 10 */
+position: absolute;
+width: 683px;
+height: 41px;
+left: 683px;
+top: 150px;
+
+/* Green */
+
+background: #2DDB9C;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.text_botao2 {
+/* Empresas */
+position: absolute;
+width: 20px;
+height: 23px;
+left: 45%;
+
+
+font-family: Average Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #000;
+
+}
