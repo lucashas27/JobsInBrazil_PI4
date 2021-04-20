@@ -77,3 +77,14 @@ position: relative;
 margin-top: 1.2vh;
 margin-left: 1vh;
 }
+
+.filter-card {
+position: absolute;
+width: 21.25vw;
+height: 58vh;
+left: 11.25vw;
+top: 30vh;
+background: #C4C4C4;
+border-radius: 10px;
+}
+
