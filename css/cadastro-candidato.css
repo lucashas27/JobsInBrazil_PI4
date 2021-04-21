@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+body {
+  background-color: #E1E4E7;
+}
+
+header {
+  background-color: #0D4253;
+  height: 100px;
+  width: 100%;
+  padding: 0 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center
+}
