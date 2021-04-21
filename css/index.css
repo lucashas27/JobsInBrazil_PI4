@@ -251,3 +251,17 @@ background: #0D4253;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 }*/
+
+/* Jaskolca */
+
+.signup {
+  background-color: #fff;
+  color: #0D4253;
+  border-radius: 6px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.signup .text_botao-3 {
+  background-color: #fff;
+}

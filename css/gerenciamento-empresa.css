@@ -167,7 +167,7 @@ margin-top: 2vh;
 }
 
 .op-descricao {
-  margin-top: 2vh;
+  margin-top: 3vh;
 }
 
 #textarea {
@@ -184,4 +184,48 @@ margin-top: 2vh;
   display: flex;
   flex-direction: row;
   grid-gap: 2vw;
+  margin-top: 2vh;
+}
+
+.carregar p {
+    margin-top: 2vh;
+    margin-left: 12vw;
+}
+
+#enviar {
+width: 10vw;
+height: 6vh;
+color:white;
+background: #2DDB9C;
+mix-blend-mode: normal;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 7px;
+}
+
+#checkbox {
+width: 1.3vw;
+height: 3vh;
+color: #2DDB9C;
+border-radius: 5px;
+margin-top: 2vh;
+}
+
+.perfil-profissional-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 90%;
+}
+
+.perfil-info img {
+  width: 20%
+}
+
+.perfil-card {
+position: relative;
+width: 183px;
+height: 114px;
+background: #F2F2F2;
+mix-blend-mode: normal;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 7px;
 }
