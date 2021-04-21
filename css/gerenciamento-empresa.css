@@ -11,7 +11,7 @@ body {
 }
 
 .header-container {
-position: absolute;
+position: relative;
 width: 100%;
 height: 18vh;
 left: 0px;
@@ -38,17 +38,20 @@ transform: translate(-50%, -50%);
 
 .title-job {
 
-width: 21.3vw;
-height: 5.31vh;
+
+position: absolute;
+width: 10.58vw;
+height: 5.3vh;
+left: 11.25vw;
+top: 5.2vh;
 font-family: DM Sans;
 font-style: normal;
 font-weight: normal;
-font-size: 24px;
-line-height: 31px;
+font-size: 4vh;
 }
 
 .sair {
-width: 2vw;
+width: 3.2vw;
 height: 3.6vh;
 position: absolute;
 top: 50%;
@@ -68,5 +71,68 @@ font-weight: normal;
 font-size: 11px;
 color: #FFFFFF;
 position: absolute;
-margin-top: 0.4vh;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.perfil-empresa {
+display: grid;
+width: 20vw;
+height: 25vh;
+margin-left: 5vw;
+margin-top: 6vh;
+}
+
+.header-back {
+position: relative;
+top: 50%;
+left: 70%;
+transform: translate(-50%, -50%);
+
+}
+
+.perfil-foto img {
+width: 5.5vw;
+height: 11vh;
+border-radius: 3vh;
+position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+} 
+
+.perfil-info {
+position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+margin-top: 0.8vh;
+
+}
+
+.button-atualizar button {
+background: #2DDB9C;
+mix-blend-mode: normal;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 7px;
+width: 15vw;
+height: 5.6vh;
+color: white;
+position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.empresa-info {
+margin-top: 8vh;
+font-family: Average Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 3vh;
+line-height: 3.5vw;
+margin-left: 6vw;
 }
