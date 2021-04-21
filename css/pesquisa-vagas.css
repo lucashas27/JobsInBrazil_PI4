@@ -36,18 +36,18 @@ border-radius: 6px;
 
 .lupa img {
 position: absolute;
-width: 15px;
-height: 15px;
-left: 821px;
-top: 61px;
+width: 1.10vw;
+height: 2.2vh;
+left: 60vw;
+top: 9.2vh;
 }
 
 .title-job {
 position: absolute;
-width: 290px;
-height: 35px;
-left: 153px;
-top: 43px;
+width: 21.3vw;
+height: 5.31vh;
+left: 11.25vw;
+top: 6.5vh;
 font-family: DM Sans;
 font-style: normal;
 font-weight: normal;
@@ -57,16 +57,16 @@ line-height: 47px;
 
 .home {
 position: absolute;
-width: 25px;
-height: 22.29px;
-left: 986px;
-top: 55px;
+width: 2vw;
+height: 3.38vh;
+left: 72.5vw;
+top: 8.3vh;
 }
 
 .perfil {
 position: absolute;
-left: 1104px;
-top: 53px;
+left: 81vw;
+top: 8vh;
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -95,7 +95,7 @@ flex-direction: column; */
 
 align-items: center;
 width: 18vw;;
-height: 37px;
+height: 5.6vh;
 margin: 3vh;
 margin-left: 3.6vh;
 background: #F2F2F2;
@@ -130,8 +130,8 @@ cursor: pointer;
 position: absolute;
 width: 45vw;
 height: 70vh;
-left: 585px;
-top: 200px;
+left: 88vh;
+top: 14.2vw;
 }
 
 .title {
@@ -153,10 +153,10 @@ border: 1px solid #000000;
 
 .footer-container {
 position: absolute;
-width: 1366px;
-height: 78px;
+width: 100%;
+height: 12vh;
 left: 0px;
-top: 946px;
+top: 70vw;
 background: #125434;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
