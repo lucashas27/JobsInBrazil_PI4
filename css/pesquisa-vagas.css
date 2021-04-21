@@ -128,8 +128,8 @@ cursor: pointer;
 
 .card-informacoes {
 position: absolute;
-width: 235px;
-height: 32px;
+width: 45vw;
+height: 70vh;
 left: 585px;
 top: 200px;
 }
