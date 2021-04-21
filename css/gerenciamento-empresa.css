@@ -5,8 +5,7 @@
 }
 
 body {
-  background: #e1e4e7
-;
+  background: #e1e4e7;
   height: 100%;
   width: 100%;
 }
@@ -17,9 +16,57 @@ width: 100%;
 height: 18vh;
 left: 0px;
 top: 0px;
-background:  #125434;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+background: #2DDB9C;
+box-shadow: 0px 4px 4px rgba(92, 32, 32, 0.25);
 color: #FFFFFF;
 display: flex;
 flex-direction: row;
+justify-content: center;
+}
+
+.home {
+
+width: 2vw;
+height: 3.38vh;
+align-items: center;
+position: absolute;
+top: 50%;
+left: 90%;
+transform: translate(-50%, -50%);
+
+}
+
+.title-job {
+
+width: 21.3vw;
+height: 5.31vh;
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 31px;
+}
+
+.sair {
+width: 2vw;
+height: 3.6vh;
+position: absolute;
+top: 50%;
+left: 95%;
+transform: translate(-50%, -50%);
+mix-blend-mode: normal;
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 7px;
+}
+
+.sair p {
+font-family: Average Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+color: #FFFFFF;
+position: absolute;
+margin-top: 0.4vh;
 }
