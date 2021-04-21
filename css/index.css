@@ -6,10 +6,12 @@
     font-family: 'Montserrat Alternates', sans-serif;
     line-height: 1.24;
 }
-
+h4{
+  font-size: 12px;
+}
 .header_container {
 position: relative;
-width: 1366px;
+width: 100vw;
 height: 120px;
 left: 0px;
 top: 0px;
@@ -18,8 +20,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .header_container .header {
-  position: absolute;
-width: 290px;
+position: absolute;
+width: 40vw;
 height: 35px;
 left: 98px;
 top: 35px;
@@ -27,10 +29,10 @@ top: 35px;
 color: #FFFFFF;
 }
 .barra-pesquisa input {
-position: absolute;
-width: 396px;
+position: relative;
+width: 40vw;
 height: 30px;
-left: 457px;
+left: 60vw;
 top: 51px;
 background: #FFFFFF;
 border-radius: 6px;
@@ -51,7 +53,7 @@ top: 61px;
   position: absolute;
 width: 80px;
 height: 23px;
-left: 987px;
+left: 73%;
 top: 23px;
 }
 .entrar .text_botao-0 {
@@ -67,7 +69,7 @@ top: 23px;
   position: absolute;
 width: 80px;
 height: 23px;
-left: 1100px;
+left: 81%;
 top: 23px;
 }
 .cadastro .text_botao-3{
@@ -88,38 +90,34 @@ position: absolute;
 border: 0;
 width: 683px;
 height: 41px;
-left: 0px;
+left: 0;
 top: 120px;
 background: #2F80ED;
 box-shadow: 0px 4px 4px rgba(228, 222, 222, 0.25);
 }
-.text_botao{
+.text_botao6 {
   /* Candidatos */
 position: relative;
 width: 20px;
 height: 26px;
-left: 295px;
+left: 25vw;
 top:5px;
-
 text-align: center;
 justify-items: center;
-margin-right: 341px;
 font-family: Average Sans;
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
 line-height: 30px;
 /* identical to box height */
-
-
 color: #F2F2F2;
 }
 .botao2 button{
 /* Rectangle 10 */
 position: relative;
-width: 683px;
+width: 50vw;
 height: 41px;
-left: 683px;
+left: 50%;
 
 
 /* Green */
@@ -132,7 +130,7 @@ box-shadow: 0px 4px 4px rgba(239, 236, 236, 0.1);
 position: relative;
 width: 20px;
 height: 23px;
-left: 45%;
+left: 25vw;
 top:6px;
 
 font-family: Average Sans;
@@ -147,13 +145,13 @@ color: #f5f5f5;
 
 }
 .corpo_da_pag{
-  height: 100vh;
+  height: auto;
   width: 1366px;
 }
 .corpo_da_pag img{
   position: relative;
   display:flex;
-  width: 100% ;
+  width: 100vw ;
   height: 100%;
 
 }
@@ -163,9 +161,9 @@ color: #f5f5f5;
 
 
 position: absolute;
-width: 594px;
+width: 45%;
 height: 39px;
-left: 683px;
+left: 45%;
 top: 235px;
 
 font-family: Average Sans;
@@ -183,9 +181,9 @@ color: #FFFFFF;
 
 
 position: absolute;
-width: 266px;
+width: 20%;
 height: 127px;
-left: 988px;
+left: 70%;
 top: 457px;
 
 font-family: Average Sans;
@@ -197,15 +195,12 @@ line-height: 31px;
 color: #FFFFFF;
 }
 
-
-
-
 footer{
   /* Rectangle 2 */
 
-
+width: 100vw;
 position: absolute;
-width: 1366px;
+
 height: 78px;
 left: 0px;
 top:auto;
@@ -224,15 +219,27 @@ position: absolute;
 font-family: Average Sans;
 font-style: normal;
 font-weight: normal;
-font-size: 18px;
+font-size: 12px;
 line-height: 23px;
 /* identical to box height */
-
-
+top:30px;
+margin-left: 12px;
 color: #FFFFFF;
 
 }
-
+.botao4 button{
+  border: none;
+}
+.botao4{
+  margin-left: 85vw;
+  margin-top: 30px;
+  border: none;
+  color: #fff;
+}
+.botao4 .text_botao4{
+  background: #0D4253;
+  border: none;
+}
 /*@media (max-width: 798px){
   .header_container {
 position: relative;

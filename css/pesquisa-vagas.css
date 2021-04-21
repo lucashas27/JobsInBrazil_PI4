@@ -124,5 +124,12 @@ color: white;
 margin-left: 3.5vh;
 margin-top: 2vh;
 cursor: pointer;
+}
 
+.card-informacoes {
+position: absolute;
+width: 235px;
+height: 32px;
+left: 585px;
+top: 200px;
 }
