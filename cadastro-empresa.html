@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cadastro do Candidato</title>
-<link rel="stylesheet" href="./css/cadastro-candidato.css">
+  <title>Cadastro da Empresa</title>
+<link rel="stylesheet" href="./css/cadastro-empresa.css">
 </head>
 <body>
  <header>
@@ -14,23 +14,28 @@
  <div id="container">
     <div id="content">
       <form method="post" action="cadastrar-curriculo.html">
-        <h4>Cadastro de perfil candidato</h4>
+        <h4>Cadastro da empresa</h4>
 
         <label for="name">Nome</label>
         <input type="text" name="name" id="name">
-        <label for="email">E-mail </label>
-        <input type="email" name="email" id="email">
+        <label for="rsocial">Razão Social</label>
+        <input type="text" name="rsocial" id="rsocial">
+        <label for="cnpj">CNPJ</label>
+        <input type="text" name="cnpj" id="cnpj">
         <label for="phone">Telefone de contato</label>
-        <input type="text" name="phone" id="phone">
-        <label for="pass">Senha</label>
+        <input type="text" name="phone" id="phone"><label for="email">E-mail </label>
+        <input type="email" name="email" id="email">  
+        <label for="size">Porte</label>
+        <input type="text" name="size" id="size">
+        <label for="area">Área de atuação</label>
+        <input type="text" name="area" id="area"><label for="pass">Senha</label>
         <input type="password" name="pass" id="pass">
         <label for="confirmpass">Confirma senha</label>
         <input type="password" name="confirmpass" id="confirmpass">
-        <label for="document">Documento</label>
-        <input type="text" name="document" id="document">
+        
         <p class="check">
-          <input type="checkbox" name="terms">
-          <label>Li e aceito os <a href="#">termos de uso.</a></label>
+          <input type="checkbox" name="terms" id="terms">
+          <label for="terms">Li e aceito os <a href="#">termos de uso.</a></label>
         </p>
 
         <button type="submit">Finalizar Cadastro</button>

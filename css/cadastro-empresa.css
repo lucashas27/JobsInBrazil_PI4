@@ -18,7 +18,7 @@ body {
 }
 
 header {
-  background-color: #0D4253;
+  background-color: #2DDB9C;
   height: 100px;
   min-height: 100px;
   width: 100%;
@@ -52,10 +52,10 @@ footer {
   justify-content: center;
   margin: 50px 0;
   align-items: flex-end;
-  background-image: url("../imagens/bgcandidato.png");
+  background-image: url("../imagens/bgempresa.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: bottom;
+  background-position: top;
 }
 
 #content {

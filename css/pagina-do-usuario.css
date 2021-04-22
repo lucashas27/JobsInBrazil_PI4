@@ -9,7 +9,7 @@
 .header_container {
 position: relative;
 width: 100vw;
-height: 120px;
+height: 15vh;
 left: 0px;
 top: 0px;
 background: #0D4253;
@@ -23,11 +23,237 @@ left: 98px;
 top: 35px;
 
 color: #FFFFFF;
+font-family: Average Sans;
+font-style: normal;
+font-weight: normal;
+}
+.header{
+  font-family: Average Sans;
+font-style: normal;
+font-weight: normal;
+}
+.atualizar{
+  margin-left: 15vw;
+  margin-top: 1vh;
+
+}
+.atualizar button{
+   background-color: #0D4253;
+   border-radius: 6px;
+   height: 4vh;
+   width: 10vw;
+   color:white ;
+}
+aside .foto1  {
+  position: absolute;
+  top:30vh;
+  margin-left:10vw;
+}
+aside .foto1 img{
+  display: flex;
+  width: 4vw ;
+}
+.usuario90{
+  display: flex;
+ margin-left:15vw;
+ margin-top: 6vh;
 }
 .home {
 position: absolute;
 width: 25px;
 height: 22.29px;
-left: 986px;
-top: 55px;
+left: 70vw;
+top: 8.5vh;
+}
+.sair{
+ position: absolute;
+width: 25px;
+height: 25px;
+left: 76vw;
+top: 8.5vh;
+
+
+}
+.sair button{
+  width: 6vw;
+  border-radius: 6px;
+  background-color: #0D4253;
+  color: white;
+}
+aside{
+  background-color: rgba(225, 228, 231, 1);
+  height: 150vh;
+  width: 100vw;
+  margin: 0;
+}
+.texto-1{
+  margin-left: 10vw;
+  
+}
+.texto-8{
+  margin-left: 10vw;
+  margin-top: 23vh;
+
+}
+.card{
+  background-color: rgba(242, 242, 242, 1);
+  margin-top:2vh;
+  width: 30vw;
+  border-radius: 6px;
+  height: 50vh;
+  margin-left:10vw;
+}
+.texto-card{
+  display: flex;
+  margin-left: 2vh;
+  margin-top:33vh;
+  width: 33vw;
+}
+footer{
+  background-color: rgba(225, 228, 231, 1);
+  height:6vh ;
+}
+.footer-container{
+  margin-left: 3vw;
+  color: black;
+  
+}
+.outrotxt {
+  position: absolute;
+  margin-left: 45vw;
+  margin-top: -3vh;
+  font-size: 110%;
+}
+.outrotxt2 {
+  position: absolute;
+  margin-left: o;
+  margin-top: 3vh;
+  width: 30vw;
+  font-size: 100%;
+}
+h7{
+  font-size: 90%;
+}
+.barra-pesquisa{
+  margin-top:35vh; 
+  width: 30vw;
+}
+.barra-pesquisa input{
+   height: 4vh ;
+  width: 30vw;
+  border-radius: 6px;
+}
+.lupa img{
+  position: absolute;
+  margin-top: -4vh ;
+  margin-left: 28vw;
+}
+.outrotxt3 {
+  position: absolute;
+  margin-top: 4vh ;
+}
+
+.carda{
+  position: absolute;
+  height: 12vh;
+  width:10vw ;
+  margin-top: 10vh;
+  border-radius: 6px;
+  background-color: rgba(242, 242, 242, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cardb{
+  position: absolute;
+  height: 12vh;
+  width:10vw ;
+  margin-top: 10vh;
+  margin-left: 12vw;
+  border-radius: 6px;
+  background-color: rgba(242, 242, 242, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cardc{
+  position: absolute;
+  height: 12vh;
+  width:10vw ;
+  margin-top: 10vh;
+  margin-left: 24vw;
+  border-radius: 6px;
+  background-color: rgba(242, 242, 242, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cardd{
+  position: absolute;
+  height: 12vh;
+  width:10vw ;
+  margin-top: 25vh;
+  border-radius: 6px;
+  background-color: rgba(242, 242, 242, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.carde{
+  position: absolute;
+  height: 12vh;
+  width:10vw ;
+  margin-top: 25vh;
+  margin-left: 12vw;
+  border-radius: 6px;
+  background-color: rgba(242, 242, 242, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cardf{
+  position: absolute;
+  height: 12vh;
+  width:10vw ;
+  margin-top: 25vh;
+  margin-left: 24vw;
+  border-radius: 6px;
+  background-color: rgba(242, 242, 242, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cardg{
+  position: absolute;
+  height: 12vh;
+  width:10vw ;
+ margin-top: 40.5vh;
+  border-radius: 6px;
+  background-color: rgba(242, 242, 242, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cardh{
+  position: absolute;
+  height: 12vh;
+  width:10vw ;
+ margin-top: 40.5vh;
+  margin-left: 12vw;
+  border-radius: 6px;
+  background-color: rgba(242, 242, 242, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cardi{
+  position: absolute;
+  height: 12vh;
+  width:10vw ;
+  margin-top: 40.5vh;
+  margin-left: 24vw;
+  border-radius: 6px;
+  background-color: rgba(242, 242, 242, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.texto-card{
+  margin: 0.6rem;
+  font-size: 70%;
+  margin-top:2vh;
+}
+.texto-card img{
+  height: 4vh;
+  border-radius: 100%;
+}
+.card .texto-card99{
+  position: relative;
+}
+.texto-card99{
+  position: relative;
+  margin: 2rem;
+  
 }

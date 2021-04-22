@@ -1,16 +1,36 @@
-.header-1{
-  
-  background-color: #0D4253;
-  position: absolute;
- width: 1366px;
- height: 103px;
- left: 0px;
- top: 0px;
+* {
+   justify-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 1.24;
+}
+body{
+  background: #E1E4E7;
+}
+.cabecalho{
+position: relative;
+background: #0D4253;
+height: 103px;
+}
+.home {
+position: absolute;
+width: 2vw;
+height: 3.38vh;
+left: 1188px;
+top: 40px; 
 
 }
 .logo{
-  padding: 15px;
-  
-
-
+  position: absolute;
+  left:154px;
+  top: 40px;
 }
+.seuperfil{
+  font: Average Sans;
+  font-size: 23px;
+  margin-left: 155px;
+  margin-top: 140px;
+}
+
