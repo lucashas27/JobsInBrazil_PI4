@@ -7,6 +7,11 @@
     line-height: 1.24;
     
 }
+
+body {
+  width: 100vw;
+}
+
 h4{
   font-size: 12px;
 }
@@ -41,10 +46,11 @@ border-radius: 6px;
 }
 .lupa img {
 position: absolute;
-width: 40vw;
+width: 5vw;
 height: 2.5vh;
-left: 73vw;
-top: 9.6vh;
+left: 90vw;
+top: 9.8vh;
+
 }
 .entrar button{
   width: 6vw;
@@ -131,7 +137,7 @@ box-shadow: 0px 4px 4px rgba(239, 236, 236, 0.1);
 .text_botao2 {
 /* Empresas */
 position: relative;
-width: 20px;
+width: 1.4vw;
 height: 23px;
 left: 25vw;
 top:6px;
@@ -149,12 +155,12 @@ color: #f5f5f5;
 }
 .corpo_da_pag{
   height: auto;
-  width: 1366px;
+  width: 100%;
 }
 .corpo_da_pag img{
   position: relative;
   display:flex;
-  width: 100vw ;
+  width: 100% ;
   height: 100%;
 
 }
@@ -181,8 +187,6 @@ color: #FFFFFF;
 }
 .texto_2{
   /* Texto motivacional */
-
-
 position: absolute;
 width: 20%;
 height: 127px;
@@ -203,7 +207,6 @@ footer{
 
 width: 100vw;
 position: absolute;
-
 height: 78px;
 left: 0px;
 top:auto;

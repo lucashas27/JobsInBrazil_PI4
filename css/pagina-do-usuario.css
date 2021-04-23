@@ -6,9 +6,18 @@
     font-family: 'Montserrat Alternates', sans-serif;
     line-height: 1.24;
 }
+
+body {
+  background: #e1e4e7;
+  height: 100%;
+  width: 100%;
+  margin-right: 10vw;
+}
+
+
 .header_container {
 position: relative;
-width: 100vw;
+width: 100%;
 height: 15vh;
 left: 0px;
 top: 0px;
@@ -71,8 +80,6 @@ width: 25px;
 height: 25px;
 left: 76vw;
 top: 8.5vh;
-
-
 }
 .sair button{
   width: 6vw;
@@ -83,12 +90,11 @@ top: 8.5vh;
 aside{
   background-color: rgba(225, 228, 231, 1);
   height: 150vh;
-  width: 100vw;
+  width: 100%;
   margin: 0;
 }
 .texto-1{
   margin-left: 10vw;
-  
 }
 .texto-8{
   margin-left: 10vw;
@@ -107,22 +113,23 @@ aside{
   display: flex;
   margin-left: 2vh;
   margin-top:33vh;
-  width: 33vw;
+  /* width: 33vw; */
+
 }
 footer{
   background-color: rgba(225, 228, 231, 1);
   height:6vh ;
 }
 .footer-container{
-  margin-left: 3vw;
+  /* margin-left: 3vw; */
   color: black;
   
 }
 .outrotxt {
   position: absolute;
-  margin-left: 45vw;
   margin-top: -3vh;
   font-size: 110%;
+  left: 50vw;
 }
 .outrotxt2 {
   position: absolute;

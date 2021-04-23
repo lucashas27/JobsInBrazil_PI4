@@ -22,7 +22,7 @@ left: 1188px;
 top: 40px; 
 
 }
-.logo{
+/* .logo{
   position: absolute;
   left:154px;
   top: 40px;
@@ -32,5 +32,35 @@ top: 40px;
   font-size: 23px;
   margin-left: 155px;
   margin-top: 140px;
+}*/
+.nome{
+  font: Average Sans;
+  font-size: 20px;
+  width: 20vw;
+  line-height: 6vh;
+  
+  }
+
+
+.container-seuperfil {
+  display: flex;
+  flex-direction: row;  
+  margin-left: 8vw;
+  margin-top: 8vh;
 }
 
+.foto-perfil {
+  width: 10%;
+
+}
+
+.seuperfil {
+  margin-left: 7vw;
+  margin-top: 7vh;
+}
+
+.areas-interesse {
+
+  margin-left: 8vw;
+  margin-top: 8vh;
+  }
