@@ -1,11 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Cadastro do Candidato</title>
+<link rel="stylesheet" href="./css/login-candidato.css">
 </head>
 <body>
-  
-</body>
+ <header>
+   <h4 class="title">Job in Brazil</h4>
+ <img src="./imagens/home.png" alt="Home">
+ </header>
+ <div id="container">
+    <div id="content">
+      <form method="post" action="cadastrar-curriculo.html">
+        <h4>Cadastro de perfil candidato</h4>
+
+        
+        <label for="email">E-mail </label>
+        <input type="email" name="email" id="email">    
+        <label for="pass">Senha</label>
+        <input type="password" name="pass" id="pass">
+
+        <p class="check">
+          <input type="checkbox" name="stayConnected" id="stayConnected">
+          <label for="stayConnected">Manter-me conectado</label>
+        </p>
+        
+        <p class="check">
+          <a href="#">Esqueci minha senha.</a>
+        </p>
+
+        <button type="submit">Entrar</button>
+     </form>
+   </div>
+ </div>
+ 
+ <footer>
+&copy; 2021 - Job in Brazil
+ </footer>
+ </body>
 </html>

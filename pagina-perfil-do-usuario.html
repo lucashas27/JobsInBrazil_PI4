@@ -9,14 +9,41 @@
 </head>
 
 <body>
-	<div class="cabecalho">
+	<!-- <div class="cabecalho">
 		<div class="logo">
 			<img src="./imagens/Job in Brazil_pag_perfil.png" alt="LOGO"/>
   </div>
+    <div class="barra-pesquisa">
+        <input type="text" placeholder="Procure uma empresa, cargo e/ou organização">
+           <img src="./imagens/lupa.svg" alt="Procurar" action="submit">
+           </div>
+  </div>
+
   <div class="home">
   <a href="/index.html"><img src="./imagens/home.png" alt="Inicio"></a>
 	</div>
+  </div> -->
+
+  <div class="header-container">
+    <div class="header-content">
+      <div class="title-job">Job In Brazil</div>
+      <div class="barra-pesquisa">
+        <input type="text" placeholder="Procure uma empresa, cargo e/ou organização">
+         <div class="lupa"> 
+           <img src="./imagens/lupa.svg" alt="Procurar" action="submit">
+           </div>
+            <div class="home">
+              <a href="/index.html"><img src="./imagens/home.png" alt="Inicio"></a>
+            </div>
+      </div>
+    </div>
   </div>
+
+
+
+
+
+
   <div class="seuperfil">
     Seu perfil do Job in Brazil
   </div>
@@ -29,10 +56,10 @@
     <h7>
     Usuário <br>
     Nome: Usuário<br>
-    Sobrenome: Silva Junior
-    Email: silvajr@email.com
-    Documento: 111.909.091-56
-    Telefone: 21 99888-8596
+    Sobrenome: Silva Junior <br>
+    Email: silvajr@email.com <br>
+    Documento: 111.909.091-56 <br>
+    Telefone: 21 99888-8596 <br>
     </h7>
 </div>
   </div>
@@ -50,7 +77,7 @@
       <option value="valor3">Superior</option>
      </select>
       </div>
-      </div>
+
 
     <div class="op-fields_area">
 <select name="select"> 
@@ -67,14 +94,53 @@
 </select>
 </div>
 
+</div>
+
+<div class="input2">
+    <div class="op-fields_nivel">
+     <select name="select"> 
+      <option value="default" selected disabled>NÍVEL</option>
+      <option value="valor2">Básico</option>
+      <option value="valor3">Médio</option>
+      <option value="valor3">Técnico</option>
+      <option value="valor3">Superior</option>
+     </select>
+      </div>
 
 
+    <div class="op-fields_area">
+<select name="select"> 
+      <option value="default" selected disabled>ÁREA DE ATUAÇÃO</option>
+      <option value="valor2">Tecnologia da Informação</option>
+      <option value="valor3">Artes e Design</option>
+      <option value="valor4">Ciências Sociais e Humanas</option>
+      <option value="valor5">Ciências Exatas</option>
+      <option value="valor6">Comunicação</option>
+      <option value="valor7">Engenharias</option>
+      <option value="valor8">Meio Ambiente</option>
+      <option value="valor9">Saúde e Bem-estar</option>
+      <option value="valor10">Outros</option>
+</select>
+</div>
+</div>
+<div class="resumo-info">
+ <p> Resumo Profissional:</p>
+  <textarea style="resize: none"></textarea>
+</div>
 
+<div class="receber-vaga">
+<p>Receber vagas por email</p>
+  <div class="checkbox">
+    <input type="checkbox" name="receberEmail" id="checkbox">
+  </div>
+</div>
 
-
+<div class="button-concluir">
+  <button type="submit">Concluir seu perfil</button>
 </div>
 
 
-</body>
+<div class="footer"><p>© 2021 - Job In Brazil</p></div>
 
+</body>
 </html>

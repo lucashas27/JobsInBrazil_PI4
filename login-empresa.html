@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login da Empresa</title>
+<link rel="stylesheet" href="./css/login-empresa.css">
+</head>
+<body>
+ <header>
+   <h4 class="title">Job in Brazil</h4>
+ <img src="./imagens/home.png" alt="Home">
+ </header>
+ <div id="container">
+    <div id="content">
+      <form method="post" action="cadastrar-curriculo.html">
+        <h4>Cadastro da empresa</h4>
+
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name">
+        <label for="rsocial">Razão Social</label>
+        <input type="text" name="rsocial" id="rsocial">
+        <label for="cnpj">CNPJ</label>
+        <input type="text" name="cnpj" id="cnpj">
+        <label for="phone">Telefone de contato</label>
+        <input type="text" name="phone" id="phone"><label for="email">E-mail </label>
+        <input type="email" name="email" id="email">  
+        <label for="size">Porte</label>
+        <input type="text" name="size" id="size">
+        <label for="area">Área de atuação</label>
+        <input type="text" name="area" id="area"><label for="pass">Senha</label>
+        <input type="password" name="pass" id="pass">
+        <label for="confirmpass">Confirma senha</label>
+        <input type="password" name="confirmpass" id="confirmpass">
+        
+        <p class="check">
+          <input type="checkbox" name="terms" id="terms">
+          <label for="terms">Li e aceito os <a href="#">termos de uso.</a></label>
+        </p>
+
+        <button type="submit">Finalizar Cadastro</button>
+     </form>
+   </div>
+ </div>
+ 
+ <footer>
+&copy; 2021 - Job in Brazil
+ </footer>
+ </body>
+</html>

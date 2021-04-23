@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  background-color: #E1E4E7;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #0D4253;
+  height: 100px;
+  min-height: 100px;
+  width: 100%;
+  padding: 0 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-self: flex-start;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+  height: 80px;
+  min-height: 80px;
+  width: 100%;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.title {
+  color: #fff;
+}
+
+#container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin: 50px 0;
+  align-items: flex-end;
+  background-image: url("../imagens/bg-login-candidato.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+#content {
+  margin: 0 50px;
+  width: 425px;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 30px 40px 80px;
+}
+
+#content form {
+  display: flex;
+  flex-direction: column;
+}
+
+#content form h4 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+#content form .check {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 16px 0;
+}
+
+#content form label {
+  margin-bottom: 4px;
+}
+
+#content form input:not([type="checkbox"]) {
+  margin-bottom: 16px;
+  height: 36px;
+  border-radius:8px;
+  padding: 0 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#content form .check input {
+  margin: 0;
+  margin-right: 8px;
+}
+
+#content form .check label {
+  margin: 0;
+}
+
+#content form .check label a {
+  text-decoration: none;
+}
+
+#content form button {
+  width: 150px;
+  height: 36px;
+  margin: auto;
+  border-radius:8px;
+  background-color: #0D4253;
+  color: #fff;
+  border: 0;
+}
