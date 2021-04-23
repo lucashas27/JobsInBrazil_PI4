@@ -16,7 +16,7 @@ line-height: 26px;
 }
 
 .header-container {
-position: absolute;
+position: relative;
 width: 100%;
 height: 18vh;
 left: 0px;
@@ -29,7 +29,7 @@ flex-direction: row;
 }
 
 .barra-pesquisa input {
-position: absolute;
+position: relative;
 width: 29vw;
 height: 4.5vh;
 left: 33.06vw;
@@ -44,41 +44,50 @@ width: 1.10vw;
 height: 2.2vh;
 left: 60vw;
 top: 9.2vh;
+cursor: pointer;
 }
 
+.title-job {
+position: absolute;
+width: 21.3vw;
+height: 5.31vh;
+left: 11.25vw;
+top: 6.5vh;
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 47px;
+}
 
-
-*/
 .home {
 position: absolute;
 width: 2vw;
 height: 3.38vh;
-left: 1188px;
-top: 40px; 
-
-} 
-
+left: 72.5vw;
+top: 8.3vh;
+}
 
 .logo{
-  position: absolute;
+  position: relative;
   left:154px;
   top: 40px;
 }
 
-
  .seuperfil{
+   position: relative;
   font: Average Sans;
   font-size: 23px;
   margin-left: 155px;
   margin-top: 140px;
 }
-.nome{
+.nome
+{
   font: Average Sans;
   font-size: 20px;
   width: 20vw;
   line-height: 6vh;
-  
-  }
+}
 
 
 .container-seuperfil {

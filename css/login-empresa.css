@@ -55,7 +55,7 @@ footer {
   background-image: url("../imagens/bgempresa.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: top;
+  background-position: top left;
 }
 
 #content {
@@ -63,7 +63,7 @@ footer {
   width: 425px;
   background-color: #fff;
   border-radius: 16px;
-  padding: 20px 40px;
+  padding: 60px 40px 80px;
 }
 
 #content form {
@@ -89,7 +89,7 @@ footer {
 }
 
 #content form input:not([type="checkbox"]) {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
   height: 36px;
   border-radius:8px;
   padding: 0 8px;

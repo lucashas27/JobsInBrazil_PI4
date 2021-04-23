@@ -144,8 +144,9 @@ top: 8.5vh;
   background-color:#0D4253 ;
   border-radius: 6px;
   height: 4.5vh;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-}
+
 .Candidato-n-selecionado button{
   margin-top: 2vh;
   margin-left: 77.5vw;
@@ -153,4 +154,14 @@ top: 8.5vh;
   background-color: red;
   border-radius: 6px;
   height: 4.5vh;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   }
+footer{
+  background-color: rgba(225, 228, 231, 1);
+  height:6vh ;
+}
+.footer-container{
+  /* margin-left: 3vw; */
+  color: black;
+  
 }
