@@ -131,7 +131,7 @@ cursor: pointer;
 
 .empresa-info {
 margin-top: 8vh;
-font-family: Average Sans;
+
 font-style: normal;
 font-weight: normal;
 font-size: 3vh;
@@ -256,7 +256,7 @@ margin-bottom: 4vh;
 }
 
 .footer {
-width: 12vw;
+width: 25vw;
 height: 3vh;
 margin-top: 30vh;
 position: relative;
@@ -264,5 +264,5 @@ font-family: Average Sans;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
-line-height: 23px;
+
 }

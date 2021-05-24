@@ -116,15 +116,7 @@ aside{
   /* width: 33vw; */
 
 }
-footer{
-  background-color: rgba(225, 228, 231, 1);
-  height:6vh ;
-}
-.footer-container{
-  /* margin-left: 3vw; */
-  color: black;
-  
-}
+
 .outrotxt {
   position: absolute;
   margin-top: -3vh;

@@ -48,10 +48,10 @@ width: 21.3vw;
 height: 5.31vh;
 left: 11.25vw;
 top: 6.5vh;
-font-family: DM Sans;
+
 font-style: normal;
 font-weight: normal;
-font-size: 36px;
+font-size: 22px;
 line-height: 47px;
 }
 
@@ -81,7 +81,7 @@ margin-left: 1vh;
 .filter-card {
 position: absolute;
 width: 21.25vw;
-height: 58vh;
+height: 65vh;
 left: 11.25vw;
 top: 30vh;
 background: #C4C4C4;
@@ -94,12 +94,12 @@ margin-top: 2vh;
 margin-bottom: 3vh;
 }
 
-.field1 select, .field2 select, .field3 select, .field4 select {
+.field4 select, .field3 select, .field2 input, .field1 select {
 
 align-items: center;
 width: 18vw;
 height: 5.6vh;
-margin: 2vh;
+margin: 1.4vh;
 margin-left: 3.6vh;
 background: #F2F2F2;
 mix-blend-mode: normal;
@@ -155,27 +155,5 @@ left: 43vw;
 top: 57vh;
 margin-bottom: 4vh;
 border: 1px solid #000000;
-}
-
-.footer-container {
-position: absolute;
-width: 100%;
-height: 12vh;
-left: 0px;
-top: 70vw;
-background: #125434;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.footer-container span {
-position: absolute;
-width: 12vw;
-height: 3.6vh;
-left: 1.7vw;
-margin-left: 2vw;
-margin-top: 5vh;
-font-size: 18px;
-line-height: 23px;
-color:white;
 }
 

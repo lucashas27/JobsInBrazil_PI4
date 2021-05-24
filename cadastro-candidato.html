@@ -5,15 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cadastro do Candidato</title>
 <link rel="stylesheet" href="./css/cadastro-candidato.css">
+<link rel="stylesheet" href="./css/igual.css">
 </head>
 <body>
  <header>
    <h4 class="title">Job in Brazil</h4>
- <a href="/index.html"> <img src="./imagens/home.png" alt="Home"></a>
+ <a href="./index.html"> <img src="./imagens/home.png" alt="Home"></a>
  </header>
  <div id="container">
     <div id="content">
-      <form method="post" action="pagina-do-usuario.html">
+      <form method="post" action="./pagina-do-usuario.html">
         <h4>Cadastro de perfil candidato</h4>
 
         <label for="name">Nome</label>
@@ -22,12 +23,13 @@
         <input type="email" name="email" id="email">
         <label for="phone">Telefone de contato</label>
         <input type="text" name="phone" id="phone">
+        <label for="document">Documento</label>
+        <input type="text" name="document" id="document">
         <label for="pass">Senha</label>
         <input type="password" name="pass" id="pass">
         <label for="confirmpass">Confirma senha</label>
         <input type="password" name="confirmpass" id="confirmpass">
-        <label for="document">Documento</label>
-        <input type="text" name="document" id="document">
+        
         <p class="check">
           <input type="checkbox" name="terms">
           <label>Li e aceito os <a href="#">termos de uso.</a></label>
