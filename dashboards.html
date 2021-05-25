@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gerenciamento da Empresa</title>
+  <title>Dashboards Empresa</title>
   <link href="./css/dashboards.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/igual.css">
   
@@ -20,6 +20,9 @@
             </div>
   </div>
   </div>
+
+<h1>Gráficos gerais de todos os candidatos do Jobs In Brazil</h1> 
+
 
   <html>
   <head>
@@ -57,29 +60,67 @@
           ['Venezuela', numVenezuela],
         ]);
 
-var dataPorte = google.visualization.arrayToDataTable([
-         ['Element', 'Density', { role: 'style' }],
-         ['Grande', 8.94, '#b87333'],            // RGB value
-         ['Média', 10.49, 'silver'],            // English color name
-         ['Pequena', 19.30, 'gold'],
-         ['MEI', 21.45, 'color: #e5e4e2' ], // CSS-style declaration
-      ]);
+         var dataLine = google.visualization.arrayToDataTable([
+          ['Mes', 'Entrevistas', 'Contratações'],
+          ['Janeiro',  500,      300],
+          ['Fevereiro',  743,      460],
+          ['Março',  660,       450],
+          ['Abril',  1030,      540]
+        ]);
+
+        var dataMapa = google.visualization.arrayToDataTable([
+          ['Country', 'Popularity'],
+          ['Colombia', numColombia],
+          ['Bolivia', numBolivia],
+          ['Angola', numAngola],
+          ['Venezuela', numVenezuela],
+          ['Haiti', numHaiti],
+        ]);
+
+         var dataPorte = google.visualization.arrayToDataTable([
+           ['Element', 'Density', { role: 'style' }],
+           ['Grande', 20, '#b87333'],            // RGB value
+           ['Média', 15, 'silver'],            // English color name
+           ['Pequena', 13, 'gold'],
+           ['MEI', 5, 'color: #e5e4e2' ], // CSS-style declaration
+         ]);
 
         // Set chart options
         var options = {'title':'Nacionalidades dos Imigrantes',
-                       'width':400,
-                       'height':300};
+          'width': 900,
+          backgroundColor: '#E4E4E4',
+          'height': 500};
+
+        var optionsPorte = {'title':'Porte das Empresas',
+          'width': 900,
+          backgroundColor: '#E4E4E4',
+          'height': 500};
+
+        var optionsLine = {'title':'Entrevistas x Contratações por mês',
+          'width': 900,
+          backgroundColor: '#E4E4E4',
+          'height': 500};
 
         // Instantiate and draw our chart, passing in some options.
         var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
         chart.draw(data, options);
+
+        var chart = new google.visualization.BarChart(document.getElementById('chart_div_bar'));
+        chart.draw(dataPorte, optionsPorte);
+
+       var chart = new google.visualization.LineChart(document.getElementById('chart_div_line'));
+        chart.draw(dataLine, optionsLine);
       }
     </script>
   </head>
 
   <body>
     <!--Div that will hold the pie chart-->
+    <div class="charts">
     <div id="chart_div"></div>
+    <div id="chart_div_bar"></div>
+    <div id="chart_div_line"></div>
+    </div>
 
   </body>
 </html>
