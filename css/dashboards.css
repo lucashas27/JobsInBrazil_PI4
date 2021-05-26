@@ -77,5 +77,10 @@ transform: translate(-50%, -50%);
 .charts {
 position: absolute;
 margin-left: 20vw;
+}
 
+h1 {
+  margin-left: 6vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }

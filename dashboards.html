@@ -45,6 +45,7 @@
       let numHaiti = 3
       let numVenezuela = 1
       let numColombia = 6
+      let numOutros = 3
 
       function drawChart() {
 
@@ -58,6 +59,8 @@
           ['Haitiana', numHaiti],
           ['Angolana', numAngola],
           ['Venezuela', numVenezuela],
+          ['Outros', numOutros],
+
         ]);
 
          var dataLine = google.visualization.arrayToDataTable([
@@ -68,15 +71,6 @@
           ['Abril',  1030,      540]
         ]);
 
-        var dataMapa = google.visualization.arrayToDataTable([
-          ['Country', 'Popularity'],
-          ['Colombia', numColombia],
-          ['Bolivia', numBolivia],
-          ['Angola', numAngola],
-          ['Venezuela', numVenezuela],
-          ['Haiti', numHaiti],
-        ]);
-
          var dataPorte = google.visualization.arrayToDataTable([
            ['Element', 'Density', { role: 'style' }],
            ['Grande', 20, '#b87333'],            // RGB value
@@ -84,6 +78,15 @@
            ['Pequena', 13, 'gold'],
            ['MEI', 5, 'color: #e5e4e2' ], // CSS-style declaration
          ]);
+
+          var dataColumn = google.visualization.arrayToDataTable([
+           ['Element', 'Density', { role: 'style' }],
+           ['Maior que 50 anos', 99, 'red'],            // RGB value
+           ['Entre 37 a 49 anos', 85, 'gray'],            // English color name
+           ['Entre 25 a 37 anos', 57, 'gold'],
+           ['De 16 a 24 anos', 23, 'silver' ], // CSS-style declaration
+         ]);
+
 
         // Set chart options
         var options = {'title':'Nacionalidades dos Imigrantes',
@@ -101,6 +104,12 @@
           backgroundColor: '#E4E4E4',
           'height': 500};
 
+        var optionsColumn = {'title':'Média de Idade dos candidatos',
+          'width': 900,
+          backgroundColor: '#E4E4E4',
+          'height': 500};
+
+
         // Instantiate and draw our chart, passing in some options.
         var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
         chart.draw(data, options);
@@ -110,16 +119,20 @@
 
        var chart = new google.visualization.LineChart(document.getElementById('chart_div_line'));
         chart.draw(dataLine, optionsLine);
-      }
+      
+        var chart = new google.visualization.BarChart(document.getElementById('chart_bar'));
+        chart.draw(dataColumn, optionsColumn);
+        }
     </script>
   </head>
 
   <body>
     <!--Div that will hold the pie chart-->
-    <div class="charts">
+    <div class="charts">    
     <div id="chart_div"></div>
     <div id="chart_div_bar"></div>
     <div id="chart_div_line"></div>
+    <div id="chart_bar"></div>
     </div>
 
   </body>
