@@ -147,7 +147,6 @@ width: 50vw;
 height: 60%;
 display: flex;
 flex-direction: column;
-
 }
 
 .fields-op {
@@ -265,4 +264,8 @@ font-style: normal;
 font-weight: normal;
 font-size: 18px;
 
+}
+
+#dashboards {
+  margin-top: 2vh;
 }

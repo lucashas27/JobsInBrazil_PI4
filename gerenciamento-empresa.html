@@ -6,9 +6,12 @@
   <title>Gerenciamento da Empresa</title>
   <link href="./css/gerenciamento-empresa.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/igual.css">
-  
+
 </head>
 <body>
+
+
+
 
  <div class="header-container">
       <div class="title-job">Job In Brazil</div>
@@ -31,7 +34,8 @@
     
       <div class="button-atualizar">
           <button type="submit">Atualize seu perfil</button>
-      </div>
+        <a href="/dashboards.html"><button type="submit" id="dashboards">Dashboards</button>
+      </div></a>
 
  </div>
       <div class="empresa-info">
@@ -58,7 +62,7 @@
      </div>
 
     <div class="op-fields_area">
-          <select name="select"> 
+      <select name="select" id="profissoes"> 
       <option value="default" selected disabled>ÁREA DE ATUAÇÃO</option>
       <option value="valor2">Tecnologia da Informação</option>
       <option value="valor3">Artes e Design</option>
@@ -71,6 +75,7 @@
       <option value="valor10">Outros</option>
 </select>
 </div>
+
   <div class="op-fields_localizacao">
  <input type="text" name="localizacao" id="localizacao" placeholder="LOCALIZAÇÃO">
   </div>
@@ -97,32 +102,33 @@
 <div class="perfil-profissional-container" >
     <div class="perfil-card">
     <div class="perfil-info">
-      <a href="/curriculo.html"> <img src="./imagens/user2.png" alt="Foto do Usuário">
-      </a><p>Usuário A</p>
+      <a href="/curriculo.html"> <img src="./imagens/user2.png" alt="Foto do Usuário" id="fotoUsuario1">
+      </a><p id="userA">Usuário A</p>
     </div>
   </div>
   <div class="perfil-card">
     <div class="perfil-info">
-      <a href="/curriculo.html"> <img src="./imagens/user2.png" alt="Foto do Usuário">
-     </a> <p>Usuário B</p>
+      <a href="/curriculo.html"> <img src="./imagens/user2.png" alt="Foto do Usuário" id="fotoUsuario2">
+     </a> <p id="userB">Usuário B</p>
+    </div>
+  </div>
+    <div class="perfil-card">
+    <div class="perfil-info">
+      <a href="/curriculo.html"> <img src="./imagens/user2.png" alt="Foto do Usuário" id="fotoUsuario3">
+     </a> <p id="userC">Usuário C</p>
+    </div>
+  </div>
+    <div class="perfil-card">
+    <div class="perfil-info">
+     <a href="/curriculo.html">  <img src="./imagens/user2.png" alt="Foto do Usuário"
+     id="fotoUsuario4">
+     </a> <p id="userD">Usuário D</p>
     </div>
   </div>
     <div class="perfil-card">
     <div class="perfil-info">
       <a href="/curriculo.html"> <img src="./imagens/user2.png" alt="Foto do Usuário">
-     </a> <p>Usuário C</p>
-    </div>
-  </div>
-    <div class="perfil-card">
-    <div class="perfil-info">
-     <a href="/curriculo.html">  <img src="./imagens/user2.png" alt="Foto do Usuário">
-     </a> <p>Usuário D</p>
-    </div>
-  </div>
-    <div class="perfil-card">
-    <div class="perfil-info">
-      <a href="/curriculo.html"> <img src="./imagens/user2.png" alt="Foto do Usuário">
-      </a> <p>Usuário E</p>
+      </a> <p id="userE">Usuário E</p>
     </div>
   </div>
     <div class="perfil-card">
@@ -139,6 +145,8 @@
   © 2021 - Job In Brazil
   </p>
   </div>
+
+    <script type="text/javascript" src="js/gerenciamento-empresa.js"></script>
 </footer>
 
 

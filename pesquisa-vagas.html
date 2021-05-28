@@ -45,13 +45,13 @@
       <option value="valor10">Outros</option>
 </select>
   </div>
-  <!-- API DO CEP -->
+
+<h1 id="test">TEEEEEEEST</h1>
 
       <div class="field2">
       <form method="get" action=".">
         <label>Cep:
-        <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
-               onblur="pesquisacep(this.value);" /></label><br />
+        <input name="cep" type="text" id="cep" /></label><br />
         <div class="field3">
         <label>Cidade:
         <input name="cidade" type="text" id="cidade" size="40" /></label><br />
@@ -60,6 +60,32 @@
           </div>
       </form>
 </div>
+
+  <!-- API DO CEP -->
+<script>
+
+const url = `https://viacep.com.br/ws/30130-002/json/`
+
+var definedCEP = document.getElementById("cep")
+definedCEP.addEventListener("click", myFunction);
+var cityLabel = document.getElementById("cidade")
+function myFunction() {
+  var requestOptions = {
+  method: 'GET',
+  redirect: 'follow'
+};
+
+console.log('testando')
+fetch(url, requestOptions)
+  .then(response => response.text())
+  .then(result => console.log(result))
+  .catch(error => console.log('error', error));     
+}
+
+cityLabel.innerHTML = 'test'
+
+
+</script>
 
   <div class="field4">
         <select name="select"> 
